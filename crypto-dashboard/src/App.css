@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d12;
+  color: white;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card {
+  background-color: #1b1d29;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.table th,
+.table td {
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.table th {
+  color: #aaa;
+  border-bottom: 1px solid #333;
+}
+
+.table td.green {
+  color: #33ff99;
+}
+
+.table td.red {
+  color: #ff6677;
+}
+body {
+  margin: 0;
+  background-color: #0d0d12;
+  font-family: sans-serif;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .position-card {
+    font-size: 12px;
+  }
+}
